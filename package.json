@@ -2,11 +2,12 @@
   "name": "nodecron",
   "version": "1.0.0",
   "description": "a batch scheduler",
-  "main": "index.js",
+  "main": "src/Main.ts",
   "scripts": {
     "start": "npm run build:live",
-    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./index.ts"
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/Main.ts"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mboullouz/nodebatch.git"
@@ -23,7 +24,7 @@
   },
   "homepage": "https://github.com/mboullouz/nodebatch#readme",
   "devDependencies": {
-    "@types/node": "^8.0.54",
+    "@types/node": "^8.0.54",   
     "nodemon": "^1.12.1",
     "ts-node": "^3.3.0",
     "typescript": "^2.6.2"
