@@ -4,7 +4,7 @@
   "description": "a batch scheduler",
   "main": "src/Main.ts",
   "scripts": {
-    "start": "npm run build:live",
+    "start": "tsc -w",
     "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/Main.ts"
   },
   
